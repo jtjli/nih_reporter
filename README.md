@@ -30,3 +30,13 @@ Note: Large files ( say, > 1MB) should reside in external file system such as Da
 2. *BRANCH*: Use a branch that's representative of your development, such as using a Stream Label as the branch name. Avoid developing on the main branch.
 3. Create a _Pull Request_ when your codes are ready for merging into the main repo.
 4. Wherever appropriate, use Stream Labels as section heading in files such as .gitignore, the global requirements.txt, and README
+
+
+## [stream] databricks_ELT
+
+Databricks notebooks for ingesting data into Delta Tables. Concepts include: SQL, spark dataframes, schema, pyspark, pandas, Upsert, databricks CLI.
+
+See:
+```
+  src/pipelines/databricks_ELT
+```
